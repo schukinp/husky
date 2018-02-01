@@ -1,4 +1,4 @@
-from selene.api import *
+from selene.api import s, ss, browser, by
 
 
 def test_yandex():
@@ -18,4 +18,6 @@ def test_yandex():
         print('Страниц меньше 2')
 
 
-test_yandex()
+if __name__ == '__main__':
+    test_yandex()
+
